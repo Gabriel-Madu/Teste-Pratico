@@ -45,7 +45,7 @@ public class SistemaDeNotas {
 
         System.out.println("Média da turma em cada disciplina:");
         for (float media : mediaDisciplina) {
-            System.out.print(media + " ");
+            System.out.print("%.2f ", media);
         }
         System.out.println();
 
